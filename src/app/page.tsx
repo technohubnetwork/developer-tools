@@ -1,7 +1,6 @@
 import { Button } from '@/components/ui/button';
 import { Card, CardDescription, CardFooter, CardHeader, CardTitle } from '@/components/ui/card';
 import ourTools from '@/configs/menu.json';
-import Link from 'next/link';
 
 export default function Home() {
   return (
@@ -15,7 +14,7 @@ export default function Home() {
               <CardDescription>{tool.description}</CardDescription>
             </CardHeader>
             <CardFooter className="flex justify-end">
-              <a href={tool.href}>
+              <a title={`Open ${tool.title}`} href={tool.href}>
                 <Button>Open</Button>
               </a>
             </CardFooter>
