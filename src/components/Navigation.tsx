@@ -12,7 +12,7 @@ import {
   NavigationMenuTrigger,
   navigationMenuTriggerStyle,
 } from '@/components/ui/navigation-menu';
-import { ourTools } from '@/configs/menu';
+import ourTools from '@/configs/menu.json';
 
 export default function NavigationMenuDemo() {
   return (

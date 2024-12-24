@@ -1,6 +1,6 @@
 import { Button } from '@/components/ui/button';
 import { Card, CardDescription, CardFooter, CardHeader, CardTitle } from '@/components/ui/card';
-import { ourTools } from '@/configs/menu';
+import ourTools from '@/configs/menu.json';
 import Link from 'next/link';
 
 export default function Home() {
