@@ -15,9 +15,9 @@ export default function Home() {
               <CardDescription>{tool.description}</CardDescription>
             </CardHeader>
             <CardFooter className="flex justify-end">
-              <Link href={tool.href}>
+              <a href={tool.href}>
                 <Button>Open</Button>
-              </Link>
+              </a>
             </CardFooter>
           </Card>
         ))}
