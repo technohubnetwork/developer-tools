@@ -37,7 +37,7 @@ const FontFileDownloader = () => {
     };
 
     return (
-        <main className="container mx-auto px-4 py-10">
+        <section className="container mx-auto px-4 py-10">
             <h1 className="text-center text-xl font-medium mb-8">
                 Font File Downloader
             </h1>
@@ -90,7 +90,7 @@ const FontFileDownloader = () => {
                     {loading && <InfiniteLoaderIcon className=" mt-5" />}
                 </div>
             </div>
-        </main>
+        </section>
     );
 };
 
